@@ -1,0 +1,3 @@
+[submodule "flask_app/assets/plugins/pace"]
+	path = flask_app/assets/plugins/pace
+	url = https://github.com/HubSpot/pace.git

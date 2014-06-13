@@ -1,0 +1,6 @@
+Flask>=0.10.1
+Flask-API>=0.6.2
+Flask-RESTful>=0.2.12
+flask-peewee>=0.6.5
+docopt>=0.6.1
+peewee>=2.2.4

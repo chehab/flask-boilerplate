@@ -1,0 +1,22 @@
+{% extends "base/_html.html" %}
+
+{% block title %}
+    {% if page_title %} {{page_title}} | {% endif %}
+    Flask-Boilerplate
+{% endblock %}
+
+{% block head %}
+  {% include "includes/_pace.html" %}
+  {% include "includes/_favicons.html" %}
+  {% include "includes/_styles.html" %}
+{% endblock %}
+
+{% block body %}
+    <div class="container-fluid">
+        {% block container %}{% endblock %}
+    </div>
+{% endblock %}
+
+{% block js %}
+    {% include "includes/_javascript.html" %}
+{% endblock %}
